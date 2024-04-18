@@ -55,3 +55,48 @@ function areaEsfera(r) {
 };
 
 console.log(areaEsfera(2));
+
+
+// eje 13
+function areaTriangulo(base, altura) {
+    return base * altura / 2
+};
+
+console.log(2,3);
+
+// eje 14
+for(i=0; i<=5; i++) {
+    console.log(`${i} * 5 = ${i * 5}`)
+};
+
+// eje 15
+console.log(Math.max(3,7,2));
+
+// eje 16
+console.log(Math.min(10,20,5));
+
+// eje 17
+let average = 0;
+function promedio(array) {
+    let suma = 0;
+    for(i=0;i<array.length;i++) {
+        suma += array[i];
+    };
+    return average = suma / array.length
+};
+
+console.log(promedio([4,6,8]));
+
+// eje 18
+function factorial(n) {
+    // Base case
+    if (n === 0 || n === 1) {
+        return 1;
+    };
+
+    // Recursive case
+    return n * factorial(n - 1);
+};
+
+console.log(factorial(4));
+
